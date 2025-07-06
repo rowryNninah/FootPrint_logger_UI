@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Eco₂Trail</title>
+    <link rel="icon" href="images/android-chrome-192x192.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img
+            src="images/Logo for Environmental Organization - Eco₂Trail (1).png"
+            alt="EcoImage"
+          />
+          <div class="logo-texts">
+            <span class="logo-text">Eco₂Trail</span>
+            <span class="logo-slogan">Measure| Reduce| Repeat</span>
+          </div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#log">Log Activities</a></li>
+          <li><a href="#summary">Daily Impacts</a></li>
+          <li><a href="#recents">Recent activities</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="home">
+        <h2 class="info-heading">Lorem ipsum dolor sit amet</h2>
+        <p class="info-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <button type="button" class="info-button">Get started</button>
+      </section>
+
+      <section id="log" class="log">
+        <h1 class="log-heading">My Activities</h1>
+        <div class="log-sides">
+          <aside class="left-side">
+            <h2 class="sub-headings">Transport</h2>
+            <div class="inputs-labels">
+              <label class="activities" for="car">Car: </label>
+              <input type="number" placeholder="km" class="inputs" />
+              <div class="car-converter"></div>
+            </div>
+            <br />
+            <div class="inputs-labels">
+              <label class="activities" for="train">Train: </label>
+              <input type="number" placeholder="km" class="inputs" />
+              <div class="train-converter"></div>
+            </div>
+            <br />
+            <div class="inputs-labels">
+              <label class="activities" for="Bus">Bus: </label>
+              <input type="number" placeholder="km" class="inputs" />
+              <div class="bus-converter"></div>
+            </div>
+            <br />
+            <div class="inputs-labels">
+              <label class="activities" for="Flight">Flight: </label>
+              <input type="number" placeholder="km" class="inputs" />
+              <div class="flight-converter"></div>
+            </div>
+          </aside>
+
+          <aside class="right-side">
+            <h2 class="sub-headings">Food</h2>
+            <div class="inputs-labels">
+              <label class="activities" for="Meat">Meat: </label>
+              <input type="number" placeholder="kg" class="inputs" />
+              <div class="meat-converter"></div>
+            </div>
+            <br />
+            <div class="inputs-labels">
+              <label class="activities" for="Dairy">Dairy: </label>
+              <input type="number" placeholder="kg" class="inputs" />
+              <div class="dairy-converter"></div>
+            </div>
+            <br />
+
+            <div class="inputs-labels">
+              <label class="activities" for="Veggies">Veggies: </label>
+              <input type="number" placeholder="kg" class="inputs" />
+              <div class="veggies-converter"></div>
+            </div>
+            <br />
+            <div class="inputs-labels">
+              <label class="activities" for="Fruit">Fruits: </label>
+              <input type="number" placeholder="kg" class="inputs" /><br />
+              <div class="fruits-converter"></div>
+            </div>
+            <br />
+          </aside>
+        </div>
+
+        <div>
+          <h2 class="sub-headings energy-heading">Energy</h2>
+          <label class="activities" for="petrol">Petrol: </label>
+          <input type="number" placeholder="ltr" class="inputs" />
+          <div class="petrol-converter"></div>
+          <label class="activities" for="diesel">Diesel: </label>
+          <input type="number" placeholder="ltr" class="inputs" />
+          <div class="diesel-converter"></div>
+          <label class="activities" for="parafin">Electricity: </label>
+          <input type="number" placeholder="kWh" class="inputs" />
+          <div class="elec-converter"></div>
+          <label class="activities" for="gas">Gas: </label>
+          <input type="number" placeholder="km" class="inputs" />
+          <div class="gas-converter"></div>
+        </div>
+      </section>
+
+      <section id="summary" class="summary">
+        <div class="summary-part">
+          <h3 class="activities">Today's Total</h3>
+          <p id="today-total">0 kg</p>
+        </div>
+        <div class="summary-part">
+          <h3 class="activities">This Weeks Total</h3>
+          <p id="this-week">0 kg</p>
+        </div>
+        <div class="summary-part">
+          <h3 class="activities">Monthly Total</h3>
+          <p id="month-total">0 kg</p>
+        </div>
+        <div class="summary-part">
+          <h3 class="activities">Daily Average</h3>
+          <p id="average">0 kg</p>
+        </div>
+      </section>
+
+      <section id="recents" class="recents">
+        <div recents-container>
+          <h2>My Recent Activities</h2>
+
+          <div id="filtered" class="filtered">
+            <button>All</button>
+            <button>Transport</button>
+            <button>Food</button>
+            <button>Energy</button>
+          </div>
+        </div>
+        <div id="activity-list" class="activity-list"></div>
+
+        <p id="no-activities" class="no-activities">No activities logged yet.</p>
+      </section>
+    </main>
+    <footer>
+      <p>
+        &copy; 2025 <em></em>Eco₂Trail "Measure| Reduce| Repeat" by Rorisang
+        Mosapa
+      </p>
+    </footer>
+  </body>
+</html>

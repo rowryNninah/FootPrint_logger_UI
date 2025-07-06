@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height:60px;
+    object-fit: contain;
+
+}
+
+.logo-texts {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+
+}
+
+.logo-text {
+    font-size: 0.8rem;
+}
+
+.logo-slogan {
+    font-size: 0.6rem;
+}
+
+.nav-list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    font-size: 0.8rem;
+    margin-right: 80px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-list li a:hover {
+    color: green;
+}
+
+.home {
+    background-color: rgb(242, 242, 242);
+    border:1px solid rgb(226, 226, 226);
+    border-radius: 2px;
+    margin: 5px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.info-button {
+    color: #fafafa;
+    background-color: black;
+    font-size: 10px;
+    width: 100px;
+    height: 25px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.info-button:hover {
+    background-color: green;
+    color: black;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.right-side {
+    padding-right: 150px;
+}
+
+.info-heading {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.info-text {
+    font-size: 10px;
+}
+
+.log {
+    height: auto;
+    margin: 20px 80px; 
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.log-heading {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.sub-headings {
+    font-size: 15px;
+    font-weight:lighter;
+    padding-bottom: 15px;
+}
+
+.activities {
+    font-size: 10px;
+}
+
+.log-sides {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.inputs {
+    width: 80px;
+    height: 38px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 5px;
+    padding-left: 6px;
+    font-size: 10px;
+}
+
+.inputs::placeholder {
+    font-size: 10px;
+    font-style: italic;
+    padding-left: 10px;
+}
+
+.inputs-labels {
+    display: flex;
+    align-items: center;
+
+}
+
+.inputs-labels label {
+    width: 100%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.energy-heading {
+    padding-top: 15px;
+}
+
+.summary {
+    height: 20vh;
+    margin: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.summary-part {
+    flex: 1;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center; 
+}
+
+.recents {
+    height: auto;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 5px;
+    margin: 20px 80px;
+    padding-left: 20px
+}
+
+.recents h2 {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.recents button {
+    font-size: 8px;
+    background-color: #000;
+    color: #fafafa;
+    width: auto;
+    padding: 5px 5px;
+    border-radius: 4px;
+}
+
+.filtered {
+    margin-bottom: 20px;
+}
+
+.recents button:hover {
+    background-color: rgb(242, 242, 242);
+    color: black;
+    border: 1px solid rgb(226, 226, 226);
+}
+
+.no-activities {
+    font-size: 8px;
+    padding-bottom: 10px;
+}
+
+
+
+footer {
+    font-size: 10px;
+    height: 10vh;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
